@@ -1,0 +1,1 @@
+enum4linux -a [IP_DO_ALVO] | tee enum4_output.txt
