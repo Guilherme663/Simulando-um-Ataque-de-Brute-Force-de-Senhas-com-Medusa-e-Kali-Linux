@@ -135,12 +135,10 @@ projeto/
     procedimentos realizados.
 -   `smb_users.txt`: wordlist criada para o desafio de enumeração e
     testes em SMB.
+-   `smb_password.txt`: wordlist criada para o desafio de enumeração e
+    testes em SMB.
 -   `enum4_output.txt`: saída registrada durante a enumeração com
     enum4linux.
--   `wordlists/`: diretório opcional para outras listas utilizadas nos
-    desafios.
--   `scripts/`: diretório opcional para scripts desenvolvidos durante as
-    atividades.
 -   `images/`: diretório opcional para capturas de tela que comprovem a
     execução dos desafios.
 
