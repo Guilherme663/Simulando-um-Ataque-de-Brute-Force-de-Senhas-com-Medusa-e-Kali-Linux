@@ -124,12 +124,9 @@ A entrega pode ser organizada com a seguinte estrutura:
 ``` text
 projeto/
 ├── README.md
-├── smb_users.txt
 ├── enum4_output.txt
-├── wordlists/
-│   └── [outras-wordlists-utilizadas]
-├── scripts/
-│   └── [scripts-utilizados, se houver]
+├── smb_password.txt
+├── smb_users.txt
 └── images/
     └── [capturas-de-tela-dos-desafios]
 ```
