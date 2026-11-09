@@ -65,7 +65,7 @@ desafio de enumeração e teste de credenciais em SMB:
 ``` bash
 echo -e "user\nmsfadmin\nservice" > smb_users.txt
 ```
-![Descrição da imagem](imagens/criando-wordlists.png)
+![Descrição da imagem](imagens/criando/wordlists.png)
 
 Arquivo gerado: `smb_users.txt`.
 
