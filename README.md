@@ -65,7 +65,7 @@ desafio de enumeração e teste de credenciais em SMB:
 ``` bash
 echo -e "user\nmsfadmin\nservice" > smb_users.txt
 ```
-![Descrição da imagem](imagens/criando/wordlists.png)
+![Imagem da criação das wordlists](imagens/criando%20wordlists.png)
 
 Arquivo gerado: `smb_users.txt`.
 
@@ -78,6 +78,7 @@ testadas:
 ``` bash
 smbclient -L //[IP_DO_ALVO] -U [USUARIO]
 ```
+![Utilizando o smbclient](imagens/Entrando%20com%20spray.png)
 
 ### 4.3. Testes automatizados com Medusa
 
@@ -89,6 +90,7 @@ Estrutura geral utilizada:
 ``` bash
 medusa -h [IP_DO_ALVO] -U [ARQUIVO_DE_USUARIOS] -P [ARQUIVO_DE_SENHAS] -M [MODULO]
 ```
+![Utilizando as wordlists](imagens/Utilizando%20as%20wordlists.png)
 
 No desafio com formulário web (DVWA), também foram utilizados parâmetros
 para indicar a página, os campos enviados pelo formulário, a resposta
@@ -100,6 +102,12 @@ que identificava uma tentativa malsucedida e a quantidade de threads:
 -m 'FAIL=Login failed' \
 -t 6
 ```
+
+![Imagem analisando o request](imagens/Analisando%20o%20request.png)
+
+![Acessando o DVWA](imagens/Acessando%20o%20DVWA.png)
+
+
 
 ### 4.4. Enumeração SMB com enum4linux
 
